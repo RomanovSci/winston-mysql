@@ -1,0 +1,21 @@
+{
+  "name": "winston-mysql",
+  "version": "1.0.0",
+  "description": "Plugin for winston logger",
+  "main": "./lib/index.js",
+  "scripts": {
+    "dev": "node ./lib/index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "winston-mysql"
+  ],
+  "author": "Roman Bylbas",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.12.0"
+  },
+  "devDependencies": {
+    "winston": "^2.3.1"
+  }
+}
