@@ -1,5 +1,4 @@
 var assert  = require('assert');
-var mocha   = require('mocha');
 var winston = require('winston');
 var MySQL   = require('../lib');
 
