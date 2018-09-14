@@ -8,7 +8,7 @@
  module.exports = function(table, level, msg) {
 
   if (!table) {
-    throw new Error('Table name is required then inserting');
+    throw new Error("Table name can't be blank");
   }
 
   var insertQuery = "INSERT INTO " + table + " (`level`, `message`) VALUES ('" + level.trim() + "', '"+ msg.trim() + "');";
